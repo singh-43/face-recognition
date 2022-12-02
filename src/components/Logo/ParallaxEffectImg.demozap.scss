@@ -1,0 +1,13 @@
+.parallax-effect-img {
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background: linear-gradient(to right, rgb(92, 139, 163), rgb(228, 78, 78));
+
+  .inner-element {
+    transform: translateZ(40px) scale(0.8);
+    width: 70%;
+    margin-left: 25%;
+  }
+}
